@@ -141,7 +141,7 @@ int check_device( nwipe_context_t*** c, PedDevice* dev, int dcount )
 
     /* Check whether this drive is on the excluded drive list ? */
     idx = 0;
-    while( idx < 150 )
+    while( idx < 10 )
     {
         if( !strcmp( dev->path, nwipe_options.exclude[idx++] ) )
         {
